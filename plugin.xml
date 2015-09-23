@@ -2,14 +2,14 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="de.appplant.cordova.plugin.local-notification"
+        id="mobi.semparar.local-notification"
         version="0.8.2-dev">
 
     <name>LocalNotification</name>
 
     <description>The plugin supports scheduling local notifications in various ways with a single interface. It also allows you to update, clear or cancel them. There are different interfaces to query for local notifications and a complete set of events to hook into the life cycle of local notifications. To get a deep overview we recommend to read about all the topics in our wiki and try out the Kitchen Sink App</description>
 
-    <repo>https://github.com/katzer/cordova-plugin-local-notifications.git</repo>
+    <repo>https://github.com/mobii/cordova-plugin-local-notifications.git</repo>
 
     <keywords>appplant, notification, local notification</keywords>
 
@@ -29,7 +29,7 @@
     <!-- info -->
     <info>
         Your support is needed. If you use the local-notification plugin please support us in order to ensure further development.
-        https://github.com/katzer/cordova-plugin-local-notifications#supporting
+        https://github.com/mobii/cordova-plugin-local-notifications#supporting
 
         Thank you!
     </info>
@@ -78,8 +78,6 @@
 
     <!-- android -->
     <platform name="android">
-
-        <dependency id="cordova-plugin-android-support-v4" />
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="LocalNotification">
